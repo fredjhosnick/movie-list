@@ -49,6 +49,7 @@ const submitHandler= (e) =>{
 
   return (
     <div className="App">
+	   <h1>My Movies</h1>
       <form onSubmit={submitHandler}> 
         <input 
         placeholder='search the movie'
